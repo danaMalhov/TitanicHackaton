@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace TitanicSurvivalProbability
 {
-    class DataManager
+    public class DataManager
     {
+        public List<Passenger> Passengers { get; set; }
+
+        public DataManager()
+        {
+
+        }
+
+        private void readFile()
+        {
+        }
     }
 }
