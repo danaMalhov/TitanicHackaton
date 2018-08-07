@@ -10,6 +10,8 @@ namespace TitanicSurvivalProbability
     {
         public List<Passenger> Passengers { get; set; }
 
+        private string FileName { get; set; }
+
         public DataManager()
         {
             readFile();
