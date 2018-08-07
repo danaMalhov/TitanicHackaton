@@ -16,3 +16,5 @@ C:\Users\DanaM\Documents\GitHub\TitanicHackaton\TitanicSurvivalProbability\Titan
 C:\Users\DanaM\Documents\GitHub\TitanicHackaton\TitanicSurvivalProbability\TitanicSurvivalProbability\obj\Debug\TitanicSurvivalProbability.csproj.GenerateResource.Cache
 C:\Users\DanaM\Documents\GitHub\TitanicHackaton\TitanicSurvivalProbability\TitanicSurvivalProbability\obj\Debug\TitanicSurvivalProbability.exe
 C:\Users\DanaM\Documents\GitHub\TitanicHackaton\TitanicSurvivalProbability\TitanicSurvivalProbability\obj\Debug\TitanicSurvivalProbability.pdb
+C:\Users\DanaM\Documents\GitHub\TitanicHackaton\TitanicSurvivalProbability\TitanicSurvivalProbability\obj\Debug\MainWindow.g.cs
+C:\Users\DanaM\Documents\GitHub\TitanicHackaton\TitanicSurvivalProbability\TitanicSurvivalProbability\obj\Debug\MainWindow.baml
