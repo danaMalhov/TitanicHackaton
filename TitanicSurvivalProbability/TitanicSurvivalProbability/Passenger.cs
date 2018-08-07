@@ -8,7 +8,7 @@ namespace TitanicSurvivalProbability
 {
     public enum SocialClass
     {
-        First,
+        First = 1,
         Second,
         Third
     }
@@ -28,5 +28,16 @@ namespace TitanicSurvivalProbability
         public Gender Gender { get; set; }
         public double Fair { get; set; }
         public int SurvivalProbability { get; set; }
+
+        public Passenger(int id, SocialClass sclass, string name, Gender gender, int age, double fair, int survival)
+        {
+            Name = name;
+            ID = id;
+            Class = sclass;
+            Age = age;
+            Gender = gender;
+            Fair = fair;
+            SurvivalProbability = survival;
+        }
     }
 }
