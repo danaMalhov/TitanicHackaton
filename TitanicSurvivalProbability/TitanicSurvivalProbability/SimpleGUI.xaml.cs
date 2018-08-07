@@ -19,9 +19,7 @@ namespace TitanicSurvivalProbability
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class SimpleGUI : Window
-    {
-        public DataManager Data { get; set; }
-
+    { 
         public SimpleGUI()
         {
             InitializeComponent();
