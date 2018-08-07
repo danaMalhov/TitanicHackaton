@@ -10,7 +10,6 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace TitanicSurvivalProbability
@@ -18,12 +17,16 @@ namespace TitanicSurvivalProbability
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class SimpleGUI : Window
+    public partial class MainWindow : Window
     {
-        public DataManager Data { get; set; }
+        public SimpleGUI Simple { get; set; }
+        public ComplexGUI Complex { get; set; }
 
-        public SimpleGUI()
+        public MainWindow()
         {
+            Simple = new SimpleGUI();
+            Complex = new ComplexGUI();        
+
             InitializeComponent();
         }
     }
