@@ -12,11 +12,12 @@ namespace TitanicSurvivalProbability
 
         public DataManager()
         {
-
+            readFile();
         }
 
         private void readFile()
         {
+
         }
     }
 }
