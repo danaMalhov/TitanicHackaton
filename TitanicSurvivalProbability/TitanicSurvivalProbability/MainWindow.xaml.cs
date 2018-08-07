@@ -24,6 +24,9 @@ namespace TitanicSurvivalProbability
 
         public MainWindow()
         {
+            Simple = new SimpleGUI();
+            Complex = new ComplexGUI();        
+
             InitializeComponent();
         }
     }
